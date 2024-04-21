@@ -14,7 +14,7 @@ const initialState = {
     {
       id: 2,
       name: "Lime",
-      url: "https://st3.depositphotos.com/4759011/14681/i/450/depositphotos_146819231-stock-photo-lime-with-leaf-isolated-on.jpg",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxsOdwuMNfR29AHjhcFjEE51hRf4m78_TFJcku49XA_Q&s",
       price: 0.75,
       count: 0,
       total_price: 0,
@@ -23,7 +23,7 @@ const initialState = {
     {
       id: 3,
       name: "Orange",
-      url: "https://shaguftaz.com/wp-content/uploads/2020/12/orange.jpg",
+      url: "https://5.imimg.com/data5/TS/KN/MY-3269076/juice-fresh-orange-500x500.jpg",
       price: 0.9,
       count: 0,
       total_price: 0,
