@@ -5,7 +5,7 @@ const initialState = {
     {
       id: 1,
       name: "Apple",
-      url: "",
+      url: "https://t4.ftcdn.net/jpg/00/59/96/75/360_F_59967553_9g2bvhTZf18zCmEVWcKigEoevGzFqXzq.jpg",
       price: 1.5,
       count: 0,
       total_price: 0,
@@ -14,7 +14,7 @@ const initialState = {
     {
       id: 2,
       name: "Lime",
-      url: "",
+      url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxsOdwuMNfR29AHjhcFjEE51hRf4m78_TFJcku49XA_Q&s",
       price: 0.75,
       count: 0,
       total_price: 0,
@@ -23,7 +23,7 @@ const initialState = {
     {
       id: 3,
       name: "Orange",
-      url: "",
+      url: "https://5.imimg.com/data5/TS/KN/MY-3269076/juice-fresh-orange-500x500.jpg",
       price: 0.9,
       count: 0,
       total_price: 0,
