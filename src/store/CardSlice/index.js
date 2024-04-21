@@ -42,7 +42,7 @@ const cardSlice = createSlice({
         (fruit) => fruit.id === action.payload
       );
       if (fruitToAdd) {
-        fruitToAdd.count++;
+        fruitToAdd.count = 1; // Reset count to 1 when adding again
         fruitToAdd.total_price = fruitToAdd.count * fruitToAdd.price;
         fruitToAdd.condition_for_add_remove = true;
         state.basket.push(fruitToAdd);
@@ -53,8 +53,6 @@ const cardSlice = createSlice({
         (fruit) => fruit.id === action.payload
       );
       if (fruitToRemoveIndex !== -1) {
-        state.basket[fruitToRemoveIndex].count = 0;
-        state.basket[fruitToRemoveIndex].total_price = 0;
         state.basket.splice(fruitToRemoveIndex, 1);
       }
     },
