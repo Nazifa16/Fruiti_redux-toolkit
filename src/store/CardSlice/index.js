@@ -56,6 +56,7 @@ const cardSlice = createSlice({
         state.basket.splice(fruitToRemoveIndex, 1);
       }
     },
+
     increaseCount: (state, action) => {
       const fruitToUpdate = state.basket.find(
         (fruit) => fruit.id === action.payload
@@ -65,6 +66,7 @@ const cardSlice = createSlice({
         fruitToUpdate.total_price = fruitToUpdate.count * fruitToUpdate.price;
       }
     },
+
     decreaseCount: (state, action) => {
       const fruitToUpdate = state.basket.find(
         (fruit) => fruit.id === action.payload
